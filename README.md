@@ -1,0 +1,19 @@
+.env 
+SERVER = 0.0.0.0
+PORT = 7777
+
+DATABASE_USERNAME = postgres 
+DATABASE_PASSWORD = 12345678
+DATABASE_HOST = db // При изменении надо менять в docker-compose
+DATABASE_NAME = dstu_testing
+DATABASE_PORT = 5432
+DATABASE_SYNCHRONIZE = true
+
+POSTGRES_USER = postgres
+POSTGRES_PASSWORD = 12345678
+POSTGRES_DB = dstu_testing
+
+JWT_SECRET = secretKey
+EXPIRES_IN = 365d
+
+CREATE_USERS = false
