@@ -1,4 +1,4 @@
-.env 
+.env
 SERVER = 0.0.0.0
 PORT = 7777
 
