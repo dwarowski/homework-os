@@ -1,19 +1,10 @@
-.env
-SERVER = 0.0.0.0
-PORT = 7777
+requierments 
+1. docker engine
+2. .env
 
-DATABASE_USERNAME = postgres 
-DATABASE_PASSWORD = 12345678
-DATABASE_HOST = db // При изменении надо менять в docker-compose
-DATABASE_NAME = dstu_testing
-DATABASE_PORT = 5432
-DATABASE_SYNCHRONIZE = true
+Скачать репозиторий.
+файлы docker-compose и .env должны быть в одном месте
+Файл .env настраивает Переменные среды внутри docker image (менять по необходимости)
+После настройки среды, запустить командрй docker-compose up --build
 
-POSTGRES_USER = postgres
-POSTGRES_PASSWORD = 12345678
-POSTGRES_DB = dstu_testing
-
-JWT_SECRET = secretKey
-EXPIRES_IN = 365d
-
-CREATE_USERS = false
+После запуска перейти на апи localhost:7777/dstu
