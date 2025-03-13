@@ -14,4 +14,4 @@ requierments
 
 После настройки среды, запустить командрй docker-compose up --build
 
-После запуска перейти на апи localhost:7777/dstu
+После запуска перейти в браузере по localhost:7777/dstu
