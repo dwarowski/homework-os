@@ -1,6 +1,8 @@
 requierments 
 1. docker engine
 2. .env
+3. docker
+4. docker-compose
 
 Скачать репозиторий.
 файлы docker-compose и .env должны быть в одном месте
