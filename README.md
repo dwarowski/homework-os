@@ -8,7 +8,6 @@ requierments
 устновка: sudo apt-get install docker docker-compose
 
 Скачать репозиторий.
-
 файлы docker-compose и .env должны быть в одном месте
 
 Файл .env настраивает Переменные среды внутри docker image (менять по необходимости)
