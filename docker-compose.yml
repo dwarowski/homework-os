@@ -1,11 +1,9 @@
-version: "3.9"  # Используйте последнюю версию Docker Compose
-
 services:
   # Сервис NestJS приложения
   app:
-    image: dwaru/simple_nest_app:development
+    image: dwaru/dstu-testing
     ports:
-      - "7777:7777"  # Пробрасывает порт 7777 из контейнера на хост-машину
+      - "3000:3000"  # Пробрасывает порт 3000 из контейнера на хост-машину
     env_file:
       - .env
     depends_on:
